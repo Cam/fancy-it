@@ -1,5 +1,5 @@
-Fancy It For Safari
-===================
+Fancy Safari Extension
+======================
 
 ## What Is It?
 
