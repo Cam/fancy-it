@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>Fancy</title>	
+<script>
+	// Set up the Listener
+	safari.application.addEventListener("command", performCommand, false);
+	
+	// Function to perform when event is received
+	function performCommand(event) {
+	    // Make sure event comes from the button
+	    if (event.command == "FancyIt") {
+		    var myurl = safari.application.activeBrowserWindow.activeTab.url; // Set current tab URL
+		    var mytitle = safari.application.activeBrowserWindow.activeTab.title; // Set current tab title
+	        var newTab = safari.application.activeBrowserWindow.openTab(); // Open a new tab
+	        newTab.url = ('http://fancy.com/fancyit?ItemURL=' + encodeURIComponent(myurl) + '&Title=' + encodeURIComponent(mytitle)); // Set up share url
+	    }
+	}
+</script>
+</html>
+
+<!-- NOTES: -->
+<!--  http://fancy.com/fancyit?ItemURL=YOUR-URL&Title=YOUR-TITLE&Category=YOUR-CATEGORY's&ImageURL=YOUR-IMAGE-SRC  -->
