@@ -5,7 +5,7 @@ Fancy Safari Extension
 
 ## What Is It?
 
-A Safari extension for adding things to <a href="http://fancy.com" target="_blank">Fancy</a>
+A Safari extension for adding things to <a href="http://fancy.to/ece67x" target="_blank">Fancy</a>
 
 ## Why?
 
