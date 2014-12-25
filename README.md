@@ -1,7 +1,7 @@
 Fancy Safari Extension
 ======================
 
-<img src="/demo-image.png" width="349" height="auto" >
+<img src="/demo-image.png" style="max-width:660px;height:auto;" >
 
 ## What Is It?
 
