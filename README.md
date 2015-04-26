@@ -19,5 +19,5 @@ Just <a href="https://raw.githubusercontent.com/Cam/fancy-it/master/fancy.safari
 
 ### To Do:
 
-* Add Popover
+* Change method from simple url to popover
 * Check current page for OG info for image etc
